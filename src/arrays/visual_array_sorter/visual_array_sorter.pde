@@ -30,7 +30,7 @@ void draw() {
   //   the width is 1
   //   the height is negative the value of the int at that element in the array
   for (int i = 0; i< integers.length; i++) {
-    rect(integers[i], width, 1, -i);
+    rect(i, height, 1, -integers[i]);
   }
   stepSort(integers);
 
